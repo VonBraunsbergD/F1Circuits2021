@@ -1,0 +1,142 @@
+import random
+
+circuits = ['Bahrain', 'China', 'Portugal', 'Spain', 'Monaco', 'Azerbaijan', 'Canada', 'France', 'Austria', 'Britain', 'Hungary',
+            'Belgium', 'Netherlands', 'Italy: Monza', 'Russia', 'Singapore', 'Japan', 'USA', 'Mexico', 'Brazil', 'Australia', 'Abu Dhabi',
+            'Italy: Imola']
+
+gp = []
+
+for circuit in circuits:
+    gp.append(f'{circuit}')
+
+print(f'There are {len(gp)} tracks to choose from.\n')
+
+input("Press 'Enter' when ready to continue. ")
+
+track1 = []
+while len(track1) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track1.append(circuit)
+
+print(f'\n{track1} has been chosen as the opening Grand Prix.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+#############Track 2#############
+
+input("Press 'Enter' when ready to continue. ")
+
+track2 = []
+while len(track2) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track2.append(circuit)
+
+print(f'\n{track2} has been chosen as the second Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+######Track 3#########
+
+input("Press 'Enter' when ready to continue. ")
+
+track3 = []
+while len(track3) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track3.append(circuit)
+
+print(f'\n{track3} has been chosen as the third Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+#######Track 4########
+
+input("Press 'Enter' when ready to continue. ")
+
+track4 = []
+while len(track4) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track4.append(circuit)
+
+print(f'\n{track4} has been chosen as the fourth Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+#######Track 5##########
+
+input("Press 'Enter' when ready to continue. ")
+
+track5 = []
+while len(track5) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track5.append(circuit)
+
+print(f'\n{track5} has been chosen as the fifth Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+########Track 6########
+
+input("Press 'Enter' when ready to continue. ")
+
+track6 = []
+while len(track6) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track6.append(circuit)
+
+print(f'\n{track6} has been chosen as the sixth Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+##########Track 7#######
+
+input("Press 'Enter' when ready to continue. ")
+
+track7 = []
+while len(track7) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track7.append(circuit)
+
+print(f'\n{track7} has been chosen as the seventh Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+#########Track 8#########
+
+input("Press 'Enter' when ready to continue. ")
+
+track8 = []
+while len(track8) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track8.append(circuit)
+
+print(f'\n{track8} has been chosen as the eighth Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+##########Track 9#########
+
+input("Press 'Enter' when ready to continue. ")
+
+track9 = []
+while len(track9) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track9.append(circuit)
+
+print(f'\n{track9} has been chosen as the penultimate Grand Prix on the calendar.\n')
+print(f'There are {len(gp)} tracks remaining to choose from.')
+
+###########Track 10###########
+
+input("Press 'Enter' when ready to continue. ")
+
+track10 = []
+while len(track10) < 1:
+    circuit = random.choice(gp)
+    gp.remove(circuit)
+    track10.append(circuit)
+
+print(f'\n{track10} has been chosen as the final Grand Prix of the season.\n')
+input("Press 'Enter' to view the season calendar.")
+print(f'\nThe season calendar will bring us to:\n 1. {track1}\n 2. {track2}\n 3. {track3}\n 4. {track4}'
+      f'\n 5. {track5}\n 6. {track6}\n 7. {track7}\n 8. {track8}\n 9. {track9}\n 10. {track10}')
